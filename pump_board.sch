@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L power:GND #PWR?
 U 1 1 5FC95D7D
-P 3000 3250
-F 0 "#PWR?" H 3000 3000 50  0001 C CNN
-F 1 "GND" H 3000 3300 50  0000 C CNN
-F 2 "" H 3000 3250 50  0001 C CNN
-F 3 "" H 3000 3250 50  0001 C CNN
-	1    3000 3250
+P 2650 5550
+F 0 "#PWR?" H 2650 5300 50  0001 C CNN
+F 1 "GND" H 2650 5600 50  0000 C CNN
+F 2 "" H 2650 5550 50  0001 C CNN
+F 3 "" H 2650 5550 50  0001 C CNN
+	1    2650 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -219,7 +219,7 @@ $EndComp
 Wire Wire Line
 	5450 1700 4900 1700
 Text Label 5450 1700 2    50   ~ 0
-MEDIA1_NEG
+MEDIA2_NEG
 $Comp
 L Transistor_FET:DMN10H220L Q?
 U 1 1 5FDE36A5
@@ -256,7 +256,7 @@ F 4 "C155271" H 4800 3250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 5450 2800 2    50   ~ 0
-MEDIA1_NEG
+MEDIA3_NEG
 Wire Wire Line
 	5450 2800 4900 2800
 Wire Wire Line
@@ -291,7 +291,7 @@ F 4 "C155271" H 4800 4400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 5450 3950 2    50   ~ 0
-MEDIA1_NEG
+MEDIA4_NEG
 Wire Wire Line
 	5450 3950 4900 3950
 Wire Wire Line
@@ -314,163 +314,163 @@ $EndComp
 Wire Wire Line
 	4900 4600 4900 4700
 Wire Wire Line
-	2150 4850 2700 4850
+	1800 7150 2350 7150
 Wire Wire Line
-	2150 4750 2700 4750
+	1800 7050 2350 7050
 Wire Wire Line
-	2150 4650 2700 4650
+	1800 6950 2350 6950
 Wire Wire Line
-	2150 4550 2700 4550
+	1800 6850 2350 6850
 Wire Wire Line
-	2150 4450 2700 4450
+	1800 6750 2350 6750
 Wire Wire Line
-	2150 4350 2700 4350
+	1800 6650 2350 6650
 Wire Wire Line
-	2150 4250 2700 4250
+	1800 6550 2350 6550
 Wire Wire Line
-	2150 4150 2700 4150
+	1800 6450 2350 6450
 Wire Wire Line
-	2150 4050 2700 4050
+	1800 6350 2350 6350
 Wire Wire Line
-	2150 3950 2700 3950
+	1800 6250 2350 6250
 Wire Wire Line
-	2150 3850 2700 3850
+	1800 6150 2350 6150
 Wire Wire Line
-	2150 3750 2700 3750
+	1800 6050 2350 6050
 Wire Wire Line
-	2150 3650 2700 3650
+	1800 5950 2350 5950
 Wire Wire Line
-	2150 3550 2700 3550
+	1800 5850 2350 5850
 Wire Wire Line
-	2150 3450 2700 3450
+	1800 5750 2350 5750
 Wire Wire Line
-	2150 3350 2700 3350
-Text Label 2700 3350 2    50   ~ 0
+	1800 5650 2350 5650
+Text Label 2350 5650 2    50   ~ 0
 MEDIA1_NEG
 Wire Wire Line
-	1150 3450 1650 3450
+	800  5750 1300 5750
 Wire Wire Line
-	1150 3550 1650 3550
+	800  5850 1300 5850
 Wire Wire Line
-	1150 3650 1650 3650
+	800  5950 1300 5950
 Wire Wire Line
-	1150 3750 1650 3750
+	800  6050 1300 6050
 Wire Wire Line
-	1150 3850 1650 3850
+	800  6150 1300 6150
 Wire Wire Line
-	1150 3950 1650 3950
+	800  6250 1300 6250
 Wire Wire Line
-	1150 4050 1650 4050
+	800  6350 1300 6350
 Wire Wire Line
-	1150 4150 1650 4150
+	800  6450 1300 6450
 Wire Wire Line
-	1150 4250 1650 4250
+	800  6550 1300 6550
 Wire Wire Line
-	1150 4350 1650 4350
+	800  6650 1300 6650
 Wire Wire Line
-	1150 4450 1650 4450
+	800  6750 1300 6750
 Wire Wire Line
-	1150 4550 1650 4550
+	800  6850 1300 6850
 Wire Wire Line
-	1150 4650 1650 4650
+	800  6950 1300 6950
 Wire Wire Line
-	1150 4750 1650 4750
+	800  7050 1300 7050
 Wire Wire Line
-	1150 4850 1650 4850
+	800  7150 1300 7150
 Wire Wire Line
-	2150 3250 3000 3250
-Text Label 2700 4850 2    50   ~ 0
+	1800 5550 2650 5550
+Text Label 2350 7150 2    50   ~ 0
 WASTE4_NEG
-Text Label 2700 4750 2    50   ~ 0
+Text Label 2350 7050 2    50   ~ 0
 DRUG42_NEG
-Text Label 2700 4650 2    50   ~ 0
+Text Label 2350 6950 2    50   ~ 0
 DRUG41_NEG
-Text Label 2700 4550 2    50   ~ 0
+Text Label 2350 6850 2    50   ~ 0
 MEDIA4_NEG
-Text Label 2700 4450 2    50   ~ 0
+Text Label 2350 6750 2    50   ~ 0
 WASTE3_NEG
-Text Label 2700 4350 2    50   ~ 0
+Text Label 2350 6650 2    50   ~ 0
 DRUG32_NEG
-Text Label 2700 4250 2    50   ~ 0
+Text Label 2350 6550 2    50   ~ 0
 DRUG31_NEG
-Text Label 2700 4150 2    50   ~ 0
+Text Label 2350 6450 2    50   ~ 0
 MEDIA3_NEG
-Text Label 2700 4050 2    50   ~ 0
+Text Label 2350 6350 2    50   ~ 0
 WASTE2_NEG
-Text Label 2700 3950 2    50   ~ 0
+Text Label 2350 6250 2    50   ~ 0
 DRUG22_NEG
-Text Label 2700 3850 2    50   ~ 0
+Text Label 2350 6150 2    50   ~ 0
 DRUG21_NEG
-Text Label 2700 3750 2    50   ~ 0
+Text Label 2350 6050 2    50   ~ 0
 MEDIA2_NEG
-Text Label 2700 3650 2    50   ~ 0
+Text Label 2350 5950 2    50   ~ 0
 WASTE1_NEG
-Text Label 2700 3550 2    50   ~ 0
+Text Label 2350 5850 2    50   ~ 0
 DRUG12_NEG
-Text Label 2700 3450 2    50   ~ 0
+Text Label 2350 5750 2    50   ~ 0
 DRUG11_NEG
-Text Label 1150 4850 0    50   ~ 0
+Text Label 800  7150 0    50   ~ 0
 WASTE4_POS
-Text Label 1150 4750 0    50   ~ 0
+Text Label 800  7050 0    50   ~ 0
 DRUG42_POS
-Text Label 1150 4650 0    50   ~ 0
+Text Label 800  6950 0    50   ~ 0
 DRUG41_POS
-Text Label 1150 4550 0    50   ~ 0
+Text Label 800  6850 0    50   ~ 0
 MEDIA4_POS
-Text Label 1150 4450 0    50   ~ 0
+Text Label 800  6750 0    50   ~ 0
 WASTE3_POS
-Text Label 1150 4350 0    50   ~ 0
+Text Label 800  6650 0    50   ~ 0
 DRUG32_POS
-Text Label 1150 4250 0    50   ~ 0
+Text Label 800  6550 0    50   ~ 0
 DRUG31_POS
-Text Label 1150 4150 0    50   ~ 0
+Text Label 800  6450 0    50   ~ 0
 MEDIA3_POS
-Text Label 1150 4050 0    50   ~ 0
+Text Label 800  6350 0    50   ~ 0
 WASTE2_POS
-Text Label 1150 3950 0    50   ~ 0
+Text Label 800  6250 0    50   ~ 0
 DRUG22_POS
-Text Label 1150 3850 0    50   ~ 0
+Text Label 800  6150 0    50   ~ 0
 DRUG21_POS
-Text Label 1150 3750 0    50   ~ 0
+Text Label 800  6050 0    50   ~ 0
 MEDIA2_POS
-Text Label 1150 3650 0    50   ~ 0
+Text Label 800  5950 0    50   ~ 0
 WASTE1_POS
-Text Label 1150 3550 0    50   ~ 0
+Text Label 800  5850 0    50   ~ 0
 DRUG12_POS
-Text Label 1150 3450 0    50   ~ 0
+Text Label 800  5750 0    50   ~ 0
 DRUG11_POS
 Wire Wire Line
-	1650 3350 1150 3350
-Text Label 1150 3350 0    50   ~ 0
+	1300 5650 800  5650
+Text Label 800  5650 0    50   ~ 0
 MEDIA1_POS
 Wire Wire Line
-	900  3250 900  3200
+	550  5550 550  5500
 Wire Wire Line
-	1650 3250 900  3250
+	1300 5550 550  5550
 $Comp
 L power:+5V #PWR?
 U 1 1 5FC97E4E
-P 900 3200
-F 0 "#PWR?" H 900 3050 50  0001 C CNN
-F 1 "+5V" H 915 3373 50  0000 C CNN
-F 2 "" H 900 3200 50  0001 C CNN
-F 3 "" H 900 3200 50  0001 C CNN
-	1    900  3200
+P 550 5500
+F 0 "#PWR?" H 550 5350 50  0001 C CNN
+F 1 "+5V" H 565 5673 50  0000 C CNN
+F 2 "" H 550 5500 50  0001 C CNN
+F 3 "" H 550 5500 50  0001 C CNN
+	1    550  5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 3150 1150 3150
-Text Label 1150 3150 0    50   ~ 0
+	1300 5450 800  5450
+Text Label 800  5450 0    50   ~ 0
 SDA-PWM
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J?
 U 1 1 5FC920DE
-P 1850 3950
-F 0 "J?" H 1900 4967 50  0000 C CNN
-F 1 "Conn_02x18_Odd_Even" H 1900 4876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 1850 3950 50  0001 C CNN
-F 3 "~" H 1850 3950 50  0001 C CNN
-	1    1850 3950
+P 1500 6250
+F 0 "J?" H 1550 7267 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 1550 7176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 1500 6250 50  0001 C CNN
+F 3 "~" H 1500 6250 50  0001 C CNN
+	1    1500 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -521,7 +521,7 @@ F 4 "C155271" H 6600 2150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 7250 1700 2    50   ~ 0
-MEDIA1_NEG
+DRUG21_NEG
 Wire Wire Line
 	7250 1700 6700 1700
 Wire Wire Line
@@ -556,7 +556,7 @@ F 4 "C155271" H 6550 3250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 7200 2800 2    50   ~ 0
-MEDIA1_NEG
+DRUG31_NEG
 Wire Wire Line
 	7200 2800 6650 2800
 Wire Wire Line
@@ -591,7 +591,7 @@ F 4 "C155271" H 6550 4400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 7200 3950 2    50   ~ 0
-MEDIA1_NEG
+DRUG41_NEG
 Wire Wire Line
 	7200 3950 6650 3950
 Wire Wire Line
@@ -659,7 +659,7 @@ $EndComp
 Wire Wire Line
 	8950 1700 8400 1700
 Text Label 8950 1700 2    50   ~ 0
-DRUG12_NEG
+DRUG22_NEG
 $Comp
 L Transistor_FET:DMN10H220L Q?
 U 1 1 5FEBECA4
@@ -696,7 +696,7 @@ F 4 "C155271" H 8300 3250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 8950 2800 2    50   ~ 0
-DRUG12_NEG
+DRUG32_NEG
 Wire Wire Line
 	8950 2800 8400 2800
 Wire Wire Line
@@ -731,7 +731,7 @@ F 4 "C155271" H 8300 4400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 8950 3950 2    50   ~ 0
-DRUG12_NEG
+DRUG42_NEG
 Wire Wire Line
 	8950 3950 8400 3950
 Wire Wire Line
@@ -801,7 +801,7 @@ F 4 "C155271" H 10100 2150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 10750 1700 2    50   ~ 0
-WASTE1_NEG
+WASTE2_NEG
 Wire Wire Line
 	10750 1700 10200 1700
 Wire Wire Line
@@ -836,7 +836,7 @@ F 4 "C155271" H 10050 3250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 10700 2800 2    50   ~ 0
-WASTE1_NEG
+WASTE3_NEG
 Wire Wire Line
 	10700 2800 10150 2800
 Wire Wire Line
@@ -871,7 +871,7 @@ F 4 "C155271" H 10050 4400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Text Label 10700 3950 2    50   ~ 0
-WASTE1_NEG
+WASTE4_NEG
 Wire Wire Line
 	10700 3950 10150 3950
 Wire Wire Line
@@ -893,4 +893,252 @@ F 3 "" H 10150 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10150 4600 10150 4700
+Text Label 1600 1950 2    50   ~ 0
+DRUG2_POS
+Text Label 3100 700  0    50   ~ 0
+WASTE_POS
+Wire Wire Line
+	550  950  1050 950 
+Text Label 550  950  0    50   ~ 0
+MEDIA3_POS
+Wire Wire Line
+	550  1100 1050 1100
+Text Label 550  1100 0    50   ~ 0
+MEDIA4_POS
+Wire Wire Line
+	1050 700  550  700 
+Text Label 550  800  0    50   ~ 0
+MEDIA2_POS
+Text Label 550  700  0    50   ~ 0
+MEDIA1_POS
+Text Label 1500 600  2    50   ~ 0
+MEDIA_POS
+Wire Wire Line
+	1050 1100 1050 950 
+Connection ~ 1050 950 
+Wire Wire Line
+	1050 950  1050 800 
+Wire Wire Line
+	550  800  1050 800 
+Connection ~ 1050 800 
+Wire Wire Line
+	1500 600  1050 600 
+Wire Wire Line
+	1050 600  1050 700 
+Connection ~ 1050 700 
+Wire Wire Line
+	1050 700  1050 800 
+Text Label 550  1350 0    50   ~ 0
+DRUG11_POS
+Text Label 550  1500 0    50   ~ 0
+DRUG21_POS
+Text Label 550  1650 0    50   ~ 0
+DRUG31_POS
+Text Label 550  1800 0    50   ~ 0
+DRUG41_POS
+Wire Wire Line
+	550  1350 1100 1350
+Wire Wire Line
+	550  1500 1100 1500
+Wire Wire Line
+	1100 1500 1100 1350
+Wire Wire Line
+	550  1650 1100 1650
+Wire Wire Line
+	1100 1650 1100 1500
+Connection ~ 1100 1500
+Wire Wire Line
+	550  1800 1100 1800
+Wire Wire Line
+	1100 1800 1100 1650
+Connection ~ 1100 1650
+Text Label 1600 1250 2    50   ~ 0
+DRUG1_POS
+Text Label 600  2200 0    50   ~ 0
+DRUG12_POS
+Text Label 600  2350 0    50   ~ 0
+DRUG22_POS
+Text Label 600  2500 0    50   ~ 0
+DRUG32_POS
+Text Label 600  2650 0    50   ~ 0
+DRUG42_POS
+Wire Wire Line
+	600  2200 1150 2200
+Wire Wire Line
+	600  2350 1150 2350
+Wire Wire Line
+	1150 2350 1150 2200
+Wire Wire Line
+	600  2500 1150 2500
+Wire Wire Line
+	1150 2500 1150 2350
+Connection ~ 1150 2350
+Wire Wire Line
+	600  2650 1150 2650
+Wire Wire Line
+	1150 2650 1150 2500
+Connection ~ 1150 2500
+Text Label 2250 800  0    50   ~ 0
+WASTE1_POS
+Text Label 2250 1000 0    50   ~ 0
+WASTE2_POS
+Connection ~ 1150 2200
+Wire Wire Line
+	1100 1350 1100 1250
+Connection ~ 1100 1350
+Wire Wire Line
+	1100 1250 1600 1250
+Wire Wire Line
+	1150 1950 1600 1950
+Wire Wire Line
+	1150 1950 1150 2200
+Text Label 2250 1200 0    50   ~ 0
+WASTE3_POS
+Text Label 2250 1400 0    50   ~ 0
+WASTE4_POS
+Wire Wire Line
+	2250 1400 2800 1400
+Wire Wire Line
+	2800 1400 2800 1200
+Wire Wire Line
+	2800 700  3100 700 
+Wire Wire Line
+	2250 800  2800 800 
+Connection ~ 2800 800 
+Wire Wire Line
+	2800 800  2800 700 
+Wire Wire Line
+	2250 1000 2800 1000
+Connection ~ 2800 1000
+Wire Wire Line
+	2800 1000 2800 800 
+Wire Wire Line
+	2250 1200 2800 1200
+Connection ~ 2800 1200
+Wire Wire Line
+	2800 1200 2800 1000
+Text Label 1650 3250 2    50   ~ 0
+MEDIA_NEG
+Text Label 3150 2050 2    50   ~ 0
+DRUG1_NEG
+Text Label 3850 3450 2    50   ~ 0
+DRUG2_NEG
+Text Label 2850 3300 2    50   ~ 0
+WASTE_NEG
+Text Label 600  3450 0    50   ~ 0
+MEDIA1_NEG
+Text Label 600  3650 0    50   ~ 0
+MEDIA2_NEG
+Text Label 600  3850 0    50   ~ 0
+MEDIA3_NEG
+Text Label 600  4050 0    50   ~ 0
+MEDIA4_NEG
+Wire Wire Line
+	600  4050 1150 4050
+Wire Wire Line
+	1150 3250 1650 3250
+Wire Wire Line
+	600  3850 1150 3850
+Connection ~ 1150 3850
+Wire Wire Line
+	1150 3850 1150 4050
+Wire Wire Line
+	600  3650 1150 3650
+Wire Wire Line
+	1150 3250 1150 3450
+Connection ~ 1150 3650
+Wire Wire Line
+	1150 3650 1150 3850
+Wire Wire Line
+	600  3450 1150 3450
+Connection ~ 1150 3450
+Wire Wire Line
+	1150 3450 1150 3650
+Text Label 1850 3500 0    50   ~ 0
+WASTE1_NEG
+Text Label 1850 3700 0    50   ~ 0
+WASTE2_NEG
+Text Label 1850 3900 0    50   ~ 0
+WASTE3_NEG
+Text Label 1850 4100 0    50   ~ 0
+WASTE4_NEG
+Wire Wire Line
+	1850 4100 2350 4100
+Wire Wire Line
+	2350 4100 2350 3900
+Wire Wire Line
+	2350 3300 2850 3300
+Wire Wire Line
+	1850 3900 2350 3900
+Connection ~ 2350 3900
+Wire Wire Line
+	2350 3900 2350 3700
+Wire Wire Line
+	1850 3700 2350 3700
+Connection ~ 2350 3700
+Wire Wire Line
+	2350 3700 2350 3500
+Wire Wire Line
+	1850 3500 2350 3500
+Connection ~ 2350 3500
+Wire Wire Line
+	2350 3500 2350 3300
+Text Label 2100 2200 0    50   ~ 0
+DRUG11_NEG
+Text Label 2100 2350 0    50   ~ 0
+DRUG21_NEG
+Text Label 2100 2500 0    50   ~ 0
+DRUG31_NEG
+Text Label 2100 2650 0    50   ~ 0
+DRUG41_NEG
+Wire Wire Line
+	2100 2650 2650 2650
+Wire Wire Line
+	2650 2650 2650 2500
+Wire Wire Line
+	2650 2050 3150 2050
+Wire Wire Line
+	2100 2500 2650 2500
+Connection ~ 2650 2500
+Wire Wire Line
+	2650 2500 2650 2350
+Wire Wire Line
+	2100 2350 2650 2350
+Connection ~ 2650 2350
+Wire Wire Line
+	2650 2350 2650 2200
+Wire Wire Line
+	2100 2200 2650 2200
+Connection ~ 2650 2200
+Wire Wire Line
+	2650 2200 2650 2050
+Text Label 2900 3700 0    50   ~ 0
+DRUG12_NEG
+Text Label 2900 3950 0    50   ~ 0
+DRUG22_NEG
+Text Label 2900 4150 0    50   ~ 0
+DRUG32_NEG
+Text Label 2900 4300 0    50   ~ 0
+DRUG42_NEG
+Wire Wire Line
+	2900 4300 3400 4300
+Wire Wire Line
+	3400 4300 3400 4150
+Wire Wire Line
+	3400 3450 3850 3450
+Wire Wire Line
+	2900 4150 3400 4150
+Connection ~ 3400 4150
+Wire Wire Line
+	3400 4150 3400 3950
+Wire Wire Line
+	2900 3950 3400 3950
+Connection ~ 3400 3950
+Wire Wire Line
+	3400 3950 3400 3700
+Wire Wire Line
+	2900 3700 3400 3700
+Connection ~ 3400 3700
+Wire Wire Line
+	3400 3700 3400 3450
 $EndSCHEMATC
